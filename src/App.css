@@ -1,0 +1,74 @@
+/* App.css */
+
+body {
+  background: linear-gradient(90deg, #0099ff, #00ff00);
+}
+input {
+  background-color:#ccc;
+  margin: 0 auto ;
+  border-radius: 30px;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #3498db;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Animal {
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ecf0f1; 
+}
+
+.Animal img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Animal h3 {
+  color: #3498db; 
+  margin: 0;
+}
+
+.Animal p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.Animal div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bt_concluir,
+.bt_remover {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #39db34; 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.bt_remover {
+  background-color: #e74c3c; 
+  margin-left: 5px;
+}
+
+
+
